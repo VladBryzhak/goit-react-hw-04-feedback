@@ -1,4 +1,4 @@
-import { Notification } from '../Notification/Notification';
+import { Notification } from '../notification/Notification';
 import { Title, ListItem, StatisticDate } from './Statistics.styled';
 
 export const Statistics = ({

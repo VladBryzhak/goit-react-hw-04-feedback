@@ -1,6 +1,6 @@
-import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
-import { Statistics } from './Statistics/Statistics';
-import { Section } from './Section/Section';
+import { FeedbackOptions } from './feedbackOptions/FeedbackOptions';
+import { Statistics } from './statistics/Statistics';
+import { Section } from './section/Section';
 import { useState } from 'react';
 import { Layout } from './Layout';
 
