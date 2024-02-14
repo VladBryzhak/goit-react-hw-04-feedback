@@ -1,8 +1,8 @@
-import styles from './Section.module.css';
+import { StatisticSection, SectionTitle } from './Section.styled';
 
 export const Section = ({ title, children }) => (
-  <section className={styles['statistic-section']}>
-    <h2 className={styles['section-title']}>{title}</h2>
+  <StatisticSection>
+    <SectionTitle>{title}</SectionTitle>
     {children}
-  </section>
+  </StatisticSection>
 );

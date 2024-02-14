@@ -1,5 +1,3 @@
-import styles from './Notification.module.css';
+import { Message } from './Notification.styled';
 
-export const Notification = ({ message }) => (
-  <p className={styles.message}>{message}</p>
-);
+export const Notification = ({ message }) => <Message>{message}</Message>;
